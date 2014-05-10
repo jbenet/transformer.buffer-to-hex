@@ -1,0 +1,30 @@
+{
+  "name": "transformer.buffer-to-hex",
+  "version": "0.0.1",
+  "description": "transformer conversion: buffer to hex",
+  "main": "index.js",
+  "transformer": "transformer.jsonld",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "transformer",
+    "transformer-conversion"
+  ],
+  "dependencies": {
+    "transformer.hex": "0.0.1",
+    "transformer.buffer": "0.0.1",
+    "dat-transformer": "~0.1.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jbenet/transformer.buffer-to-hex.git"
+  },
+  "author": "Juan Benet <juan@benet.ai> (http://juan.benet.ai/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenet/transformer.buffer-to-hex/issues"
+  },
+  "homepage": "https://github.com/jbenet/transformer.buffer-to-hex"
+}
